@@ -1,17 +1,9 @@
-HTML presentation framework
+HTML Presentation Framework
 ---------------------------
 
 **About this repo**
 
-+ A simple HTML presentation framework. Currently only Chrome and Safari are supported. Fork is welcome.
-
-
-**How to use**
-
-+ Back  : up arrow, left arrow or PageUp.
-+ Next  : down arrow, right arrow, PageDown or Space
-+ First : Home.
-+ Last  : End.
++ A simple HTML presentation framework. Currently only Chrome and Safari are supported.
 
 
 **Read the blog post**
@@ -22,3 +14,11 @@ HTML presentation framework
 **Try out the demo**
 
 + http://myst729.github.com/Presentation
+
+
+**How to use**
+
++ Back  : up arrow, left arrow or PageUp.
++ Next  : down arrow, right arrow, PageDown or Space
++ First : Home.
++ Last  : End.
