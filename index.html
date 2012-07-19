@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>HTML Presentation</title>
+	<link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="prettify.css" />
+</head>
+<body>
+
+	<div id="loading">
+		<h2>LOADING</h2>
+	</div>
+
+	<div id="content">
+		<article id="title" data-bg="img/victorian.jpg">
+			<h1>&lt;JavaScript /&gt;</h1>
+			<h3>http://github.com/myst729/presentation/</h3>
+		</article>
+		<article id="usage" data-bg="img/rainbow.jpg">
+			<h2>How to use</h2>
+			<ul>
+				<li>Back: <code>&#x2190;</code>, <code>&#x2191;</code> or <code>PgUp</code>.</li>
+				<li>Next: <code>&#x2192;</code>, <code>&#x2193;</code>, <code>PgDn</code> or <code>&#x3000;&#x3000;&#x3000;Space&#x3000;&#x3000;&#x3000;</code>.</li>
+				<li>First: <code>Home</code>.</li>
+				<li>Last: <code>End</code>.</li>
+			</ul>
+			<div class="build">
+				<p>Please note that currently only <a href="http://www.google.com/chrome/">Chrome</a> and <a href="http://www.apple.com/safari/">Safari</a> are supported, because I'm bloody lazy!</p>
+			</div>
+		</article>
+		<article id="fixed" data-bg="img/heart.jpg" data-type="fixed">
+			<h2>Fixed Background</h2>
+			<p>Err... in case you need it.</p>
+		</article>
+		<article id="parallax" data-bg="img/tower.jpg" data-type="parallax">
+			<h2>Parallax background image</h2>
+			<p>Iteratively changing the background image's position is... super cool huh?</p>
+		</article>
+		<article id="list" data-bg="img/bokeh.jpg">
+			<h2>An unordered list</h2>
+			<ul>
+				<li>list item</li>
+				<li>another list item</li>
+				<li>one more list item</li>
+				<li>last one</li>
+			</ul>
+		</article>
+		<article id="building" data-bg="img/sailing.jpg">
+			<h2>Building the list items one by one</h2>
+			<ol class="build">
+				<li>list item</li>
+				<li>another list item</li>
+				<li>one more list item</li>
+			</ol>
+		</article>
+		<article id="table" data-bg="img/typo.jpg">
+			<h2>A Table</h2>
+			<table>
+				<tbody>
+					<tr>
+						<th>date</th>
+						<th>title</th>
+						<th>description</th>
+					</tr>
+					<tr>
+						<td>04.18.2009</td>
+						<td>Lorem ipsum</td>
+						<td>Commodo <a href="#">metus</a> vestibulum</td>
+					</tr>
+					<tr class="altrow">
+						<td>05.21.2009</td>
+						<td>Fusce ut diam</td>
+						<td>Purus in eget odio in sapien</td>
+					</tr>
+					<tr>
+						<td>08.13.2009</td>
+						<td>Augue non nibh</td>
+						<td>Adipiscing blandit</td>
+					</tr>
+					<tr class="altrow">
+						<td>01.03.2010</td>
+						<td>Sed vestibulum</td>
+						<td>Cras <a href="index.html">lobortis</a> commodo</td>
+					</tr>
+				</tbody>
+			</table>
+		</article>
+		<article id="code" data-bg="img/metric.jpg">
+			<h2>A Code Block</h2>
+			<pre class="prettyprint lang-js linenums">
+function helloWorld(world) {
+	for (var i = 42; --i >= 0;) {
+		alert('Hello ' + String(world));
+	}
+}
+			</pre>
+		</article>
+		<article id="iframe" data-bg="img/flower.jpg">
+			<h2>Iframed Demo</h2>
+		</article>
+		<article id="quote" data-bg="img/pacman.jpg">
+			<h2>Quotes</h2>
+		</article>
+		<article id="oops" data-bg="img/victorian.jpg">
+			<h1>Q &amp; A</h1>
+		</article>
+	</div>
+
+	<script src="prettify.js"></script>
+	<script src="script.js"></script>
+
+</body>
+</html>
