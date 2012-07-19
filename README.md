@@ -16,9 +16,9 @@ HTML presentation framework
 
 **Read the blog post**
 
-+ not written yet
++ http://forcefront.com/2012/html-presentation-framework/
 
 
 **Try out the demo**
 
-+ http://myst729.github.com/Presentation/
++ http://myst729.github.com/Presentation
