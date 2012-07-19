@@ -18,7 +18,7 @@ HTML Presentation Framework
 
 **How to use**
 
-+ Back  : up arrow, left arrow or `PageUp`.
-+ Next  : down arrow, right arrow, `PageDown` or Space
++ Back  : `←`, `↑` or `PgUp`.
++ Next  : `→`, `↓`, `PgDn` or `　　Space　　`.
 + First : `Home`.
 + Last  : `End`.
