@@ -13,7 +13,7 @@ HTML Presentation Framework
 
 **Try out the demo**
 
-+ http://myst729.github.com/Presentation
++ http://myst729.github.io/Presentation/
 
 
 **How to use**
