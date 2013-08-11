@@ -4,6 +4,7 @@ HTML Presentation Framework
 **About this repo**
 
 + A simple HTML presentation framework. Currently only Chrome and Safari are supported.
++ This project is released under the [MIT license](http://opensource.org/licenses/MIT).
 
 
 **Read the blog post**
